@@ -1,2 +1,2 @@
-#Password wallet
+# Password wallet
 An internet application that allows the user to store passwords in one place. The user creates an account within the application and can then add login credentials for other websites. When setting up the account, the user can choose the type of password protection (Sha512 or HMAC). Passwords added to the portal are secured using AES encryption. If the user enters the wrong password during login, the account will be locked for a specified period. After three consecutive incorrect attempts, the account will be permanently blocked. To unlock the account, the user can reset the password using a pre-defined security question. Additionally, the user can check the login history for their account.
